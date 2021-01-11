@@ -13,7 +13,7 @@ function calculation(){
      let totalbill = billamt + totaltip;
 
     
-    console.log(totalbill);
+    
 
     let button = document.getElementById("button");
     button.addEventListener('click', outputCalculations);
@@ -25,6 +25,17 @@ function calculation(){
         document.getElementById("totaltip").innerHTML = totaltip;
 
     }
+
+    var obj ={
+            0:" ",
+            5: "Average",
+            10: "Good",
+            15: "Too Good",
+            20: "Excellent"
+        };
+
+    let newob = document.getElementById("tipvalue").innerHTML = obj[tippercent];
+    // console.log(obj[tippercent]);
     
 }
 
