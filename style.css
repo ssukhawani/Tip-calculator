@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b3b3b3;
+    font-family: 'Mali',
+    cursive;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #54e346, white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px black;
+    width: 380px;
+    margin: 20px auto;
+}
+.section1{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow:inset 0 2px 2px -2px grey;
+    border-top: 3px solid black;
+    
+}
+.section2{
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow:inset 0 2px 2px -2px gray;
+    border-bottom: 3px solid black;
+}
+button{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 5px 100px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    font-family: 'Mali',
+    cursive;
+}
+.button{
+    text-align: center ;
+    margin-top: 10px;
+}
+
+section > div{
+    padding: 9px 10px;
+    
+}
+.totalntip{
+    /* background-color: blueviolet; */
+    margin: 0 13px;
+    padding-top: 0;
+}
+.identity{
+    /* background-color: blueviolet; */
+    text-align: center;
+
+    /* display: flex;
+    width: 60%;
+    margin: 20px auto;    */
+}
+
+
+.output{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: 600; */
+}
+hr{
+    margin-top: 20px;
+}
+small{
+    font-size: 15px;
+}
+#totalbill{
+    font-size: 20px;
+    
+}
+#totaltip{
+    font-size: 20px;
+}
+.labelall{
+    font-weight: 600;
+}
+
+
+.bill{
+    display: flex;
+    font-weight: 600;
+}
+.bill label{
+    flex: 1;
+    align-self: center;
+}
+.bill input{
+    flex: 1;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    width: 30%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow:inset 0 2px 2px -2px black;
+    font-family: 'Mali',
+    cursive;
+}
+
+input[type="range"]{
+    appearance: none;
+    background-color: lightgrey;
+    width: 100%;
+    height: 5px;
+    outline: none;
+    border: black;
+    margin-top: 15px;
+}
+
+.section2 > div{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+@media (min-width:600px){
+    main{
+        width: 450px;
+    }
+}
+

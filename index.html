@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Master</title>
+    <link rel="stylesheet" href="./images/money.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+    <main>
+        <div class="identity">
+            <img src="./images/magician.png" alt="Tip-Master" width="45px" height="40px">
+            <h2>Tip Master</h2>
+        </div>
+        
+        <section class="section1">
+            <div class="output">
+                <label for="tipperpeson">Tip/Person</label>   
+            </div>
+            <div class="output">
+                <span class="tipamountperhead" id="output"><small>&#x20B9;</small>000</span>
+            </div>
+            <hr>
+            <div class="space-between">   
+                <label for="totalbill" class="labelall">Total Bill</label>
+                <label for="totaltip" class="labelall">Total Tip</label>
+            </div>
+            <div class="space-between totalntip">
+                <label for="totalbillamt" id="totalbill"><small>&#x20B9;</small>000</label>
+                <label for="totaltipamt" id="totaltip"><small>&#x20B9;</small>000</label>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="bill">
+                <label for="enterbill">Bill</label>
+                <input type="number" id="enterbill" placeholder="Enter Bill Amount" oninput="calculation()">
+            </div>
+            <div>
+                <div class="space-between">
+                    <label for="tip">Tip</label>
+                    <span id="tipid">0%</span>
+                </div>
+
+                <div class="range-wrap">
+                    <div class="range-value" id="rangeV"></div>
+                    <input type="range" id="tiprange" min="0" max="20" value="0" step="5" oninput="calculation()">
+                </div>
+                
+                
+            </div>
+            <div>
+                <div class="space-between">
+                    <label for="split">Split</label>
+                    <span id="splitid">1 Person</span>
+                </div>
+                <input type="range" id="splitrange" min="1" max="10" value="1" oninput="calculation()">
+            </div>
+        </section>
+            <div class="button" id="button">
+                <button>Calculate</button>
+            </div>
+        
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
