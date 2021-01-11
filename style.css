@@ -143,15 +143,34 @@ input[type="range"]{
     border: black;
     margin-top: 15px;
 }
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
 
 
 .section2 > div{
     margin: 10px 0;
 }
 
-#tipvalue{
-    
-}
 
 
 
