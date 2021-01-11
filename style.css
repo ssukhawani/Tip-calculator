@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    background-image: linear-gradient(to bottom, #54e346, white);
+    background-image: linear-gradient(to bottom, #33FF6C, white);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -116,7 +116,8 @@ small{
     
 }
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input::-webkit-inner-spin-button,
+{
     -webkit-appearance: none;
     margin: 0;
 }
